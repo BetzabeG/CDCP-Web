@@ -1,10 +1,16 @@
+/* Propiedades básicas */
+/* Selector de elemento */
 h2 {
     color:blueviolet;
 }
+/* Selector de clase */
 .texto {
     font-size: medium;
     color: blue;
+    background-color: rgb(142, 228, 218);
+    padding: 10px;
 }
+/* Selector por id */
 #textoUnico {
     color: brown;
     font-weight: 700;
@@ -21,25 +27,67 @@ body {
 }
 
 
-#cajita{
-    position: sticky;
-    right: 0;
-    top:10px;
-    right: 800px;
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
-    border-radius:70px;
-    border: 5px black dotted;
+/* Posiciones */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-#contenedor-2{
-    height: 1000px;
-    color: white;
-    background-color: blueviolet;
+.container {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
 }
-#contenedor-padre{
-    background-color: cadetblue;
-    height: 300px;
-    width: 90px;
+
+/* Posicion relativa */
+.relative-box {
+    position: relative;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+}
+
+/* Posicion absoluta */
+.absolute-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ffdddd;
+    padding: 10px;
+    border: 1px solid #900;
+}
+
+/* Posicion fija */
+.fixed-box {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #ddffdd;
+    padding: 10px;
+    border: 1px solid #090;
+    z-index: 10; /* Asegura que esté por encima de los demás elementos */
+}
+
+/* Posicion pegajosa */
+.sticky-container {
+    height: 200px;
+    min-height: 200px; /* Asegura que siempre haya scroll */
+    background-color: #e0e0ff;
+    padding: 20px;
+    border: 1px solid #333;
+    overflow-y: scroll;
+}
+
+.sticky-box {
+    position: sticky;
+    top: 0;
+    background-color: #ffd;
+    padding: 10px;
+    border: 1px solid #999;
+}
+
+.content p {
+    margin: 10px 0;
 }
