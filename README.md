@@ -10,3 +10,5 @@ Aqui encontraras los proyectos de desarrollo web del club de chicas programadora
 >[!NOTE] 
 > **Recuerda**
 > -  Si tienes alguna duda, consulta a las mentoras 🤗
+> - - Nao
+> - - Bet
